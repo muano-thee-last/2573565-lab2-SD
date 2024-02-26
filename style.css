@@ -61,21 +61,23 @@ footer{
     margin-right: auto;
 }
 
-#services *{
-    width: fit-content;  
-    margin:0;
-    padding:0;
-    
-
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
 }
 
 #web_development, #graphic_design {
-    
-    width: 50%;
-    display:inline-flexbox;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+    width: 620px; /* Adjust as needed */
 }
 
-#web_development img, #graphic_design img{
-    
-    width: 10%;
+img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 10px 0; 
 }
