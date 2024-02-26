@@ -90,3 +90,9 @@ img {
     display: block;
     margin: 10px 0; 
 }
+
+a:hover{
+    text-emphasis-style: bold;
+    color: rgb(7, 135, 194);
+    cursor: pointer;
+}
